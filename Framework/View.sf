@@ -1,0 +1,10 @@
+import ::io;
+
+class View {
+
+    public method __ctor() {
+        io.print("Creating View\n");
+    }
+
+}
+

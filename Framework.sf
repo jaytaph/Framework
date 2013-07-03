@@ -1,0 +1,19 @@
+import ::io;
+import Framework::Http;
+import Framework::View;
+
+class Framework {
+
+    public method __ctor(string environment) {
+        io.print("Framework on [",environment,"] has been initialized\n");
+    }
+
+    public method run() {
+        io.print("run\n");
+        self.h = Http();
+        io.print("getrequest\n");
+        req = self.h.getRequest();
+        res = self.h.getResponse();
+    }
+
+}

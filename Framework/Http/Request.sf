@@ -1,0 +1,9 @@
+import ::io;
+
+class Request {
+
+    public method __ctor() {
+        io.print("Creating request\n");
+    }
+
+}

@@ -1,0 +1,9 @@
+import ::io;
+
+class Response {
+
+    public method __ctor() {
+        io.print("Creating response\n");
+    }
+
+}

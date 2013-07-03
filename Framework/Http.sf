@@ -1,0 +1,19 @@
+import Http::Request;
+import Http::Response;
+import ::io;
+
+class Http {
+
+    public method __ctor() {
+        io.print("Creating Http\n");
+    }
+
+    public method getRequest() {
+        return Request();
+    }
+
+    public method getResponse() {
+        return Response();
+    }
+
+}
